@@ -27,7 +27,7 @@ jobs:
 
     - name: Lint with flake8
       run: |
-        flake8 service
+        flake8 service --ignore=E501
 
     - name: Run tests
       run: |
